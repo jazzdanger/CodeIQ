@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "num_ast_features": 25,
+  "codebert_embedding_dim": 768,
+  "total_multimodal_dim": 793,
+  "train_samples": 2400,
+  "val_samples": 1200,
+  "test_samples": 1400,
+  "total_processed_samples": 5000,
+  "tensor_shapes": {
+    "train_X": [
+      2400,
+      793
+    ],
+    "val_X": [
+      1200,
+      793
+    ],
+    "test_X": [
+      1400,
+      793
+    ]
+  },
+  "scaler_artifact": "E:\\python\\Machine Learning\\project\\saved_models\\checkpoints\\ast_scaler.joblib",
+  "total_extraction_duration_seconds": 69.9
+}

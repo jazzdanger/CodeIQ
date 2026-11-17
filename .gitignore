@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables
+.env
+.env.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Datasets and Large Artifacts
+datasets/raw/*
+!datasets/raw/.gitkeep
+datasets/processed/*
+!datasets/processed/.gitkeep
+datasets/embeddings/*
+!datasets/embeddings/.gitkeep
+saved_models/checkpoints/*
+!saved_models/checkpoints/.gitkeep
+saved_models/baselines/*
+!saved_models/baselines/.gitkeep
+*.pt
+*.pth
+*.onnx
+*.bin
+*.h5
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+*.log

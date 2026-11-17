@@ -1,0 +1,52 @@
+{
+  "dataset_splits": {
+    "train_samples": 2400,
+    "val_samples": 1200,
+    "test_samples": 1400
+  },
+  "proposed_mt_ann": {
+    "model_type": "Multi-Task ANN",
+    "test_samples": 1400,
+    "time_complexity": {
+      "accuracy": 0.4286,
+      "macro_precision": 0.2317,
+      "macro_recall": 0.4286,
+      "macro_f1": 0.2911
+    },
+    "space_complexity": {
+      "accuracy": 0.6607,
+      "macro_precision": 0.5217,
+      "macro_recall": 0.6354,
+      "macro_f1": 0.5265
+    },
+    "maintainability": {
+      "mae": 4.9832,
+      "mse": 40.3698,
+      "rmse": 6.3537,
+      "r2_score": 0.4026
+    }
+  },
+  "baseline_random_forest": {
+    "rf_time_accuracy": 0.4093,
+    "rf_time_macro_f1": 0.32,
+    "rf_space_accuracy": 0.5414,
+    "rf_space_macro_f1": 0.4465,
+    "rf_quality_mae": 4.9339,
+    "rf_quality_r2": 0.4764
+  },
+  "baseline_linear_models": {
+    "lr_time_accuracy": 0.4286,
+    "lr_time_macro_f1": 0.3095,
+    "lr_space_accuracy": 0.41,
+    "lr_space_macro_f1": 0.3295,
+    "lr_quality_mae": 30.9498,
+    "lr_quality_r2": -18.8313
+  },
+  "figures_generated": [
+    "training_loss_curves.png",
+    "confusion_matrix_time.png",
+    "confusion_matrix_space.png",
+    "quality_parity_plot.png",
+    "model_comparison_benchmark.png"
+  ]
+}

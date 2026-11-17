@@ -1,0 +1,22 @@
+{
+  "model_type": "Multi-Task ANN",
+  "test_samples": 1400,
+  "time_complexity": {
+    "accuracy": 0.4286,
+    "macro_precision": 0.2317,
+    "macro_recall": 0.4286,
+    "macro_f1": 0.2911
+  },
+  "space_complexity": {
+    "accuracy": 0.6607,
+    "macro_precision": 0.5217,
+    "macro_recall": 0.6354,
+    "macro_f1": 0.5265
+  },
+  "maintainability": {
+    "mae": 4.9832,
+    "mse": 40.3698,
+    "rmse": 6.3537,
+    "r2_score": 0.4026
+  }
+}
